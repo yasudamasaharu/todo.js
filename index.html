@@ -8,30 +8,41 @@
 
   <body>
     <div class="input-todoarea">
-      <input class="add-text" placeholder="TODOを入力" />
-      <button class="add-btn">追加</button>
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
     </div>
 
     <div class="incomplete-area">
       <p class="title">未完了のTODO</p>
-      <ul class="list-wrap">
-        <li>TODOです</li>
-        <div class="list-item">
+      <ul id="incomplete-list" class="list-wrap">
+        <!-- <div class="list-row">
+          <li class="list-items">TODOです</li>
           <button>完了</button>
           <button>削除</button>
-        </div>
+        </div> -->
+        <!-- <div class="list-item"> -->
+        <!-- <button>完了</button>
+        <button>削除</button> -->
+        <!-- </div> -->
       </ul>
     </div>
 
     <div class="complete-area">
       <p class="title">完了したTODO</p>
-      <ul class="list-wrap">
-        <li>TODOでした</li>
-        <div class="list-item">
+      <ul id="complete-list" class="list-wrap">
+        <!-- <div class="list-row">
+          <li>TODOでした</li>
           <button>戻す</button>
-        </div>
+        </div> -->
       </ul>
     </div>
-    <script src="src/index.js"></script>
+
+    <div class="test">
+      <div class="test-item">1</div>
+      <div class="test-item">2</div>
+      <div class="test-item">3</div>
+    </div>
+    <!-- <script src="src/index.js"></script> -->
+    <script src="src/index2.js"></script>
   </body>
 </html>

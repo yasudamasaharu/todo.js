@@ -57,10 +57,22 @@ button:hover {
   color: #fff;
 }
 
-.list-wrap {
+/* .list-wrap {
   display: flex;
   align-items: center;
   padding-bottom: 8px;
+} */
+
+.list-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.list-items {
+  margin-right: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
 }
 
 .list-item {
